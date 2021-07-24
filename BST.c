@@ -28,11 +28,13 @@ int main()
     insert(17);
     insert(7);
 
+    printf("Looking for change for git\n");
+
     inorderTraversal(tree);
     bool flag = false;
     if(searchElement(13, tree))
     {
-        printf("Element present");
+        printf("Element is present");
     }
 }
 
